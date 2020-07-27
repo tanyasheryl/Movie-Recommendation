@@ -1,6 +1,6 @@
 # Movie-Recommendation
 
-This project mainly uses three approaches to build a Recommendation model for the movies dataset. 
+This project mainly uses four approaches to build a Recommendation model for the movies dataset. 
 
 * Content-Based Filtering
 * Collaborative Filtering

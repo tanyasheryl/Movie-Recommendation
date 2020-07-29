@@ -8,6 +8,8 @@ This project mainly uses four approaches to build a Recommendation model for the
   - Model-Based Filtering
 * Hybrid Filtering
 
+[Tableau Link](https://public.tableau.com/profile/tanya3352#!/vizhome/ExploringMovies/Dashboard1)
+ 
 ### Content based filtering 
 Content based recommender systems use some kind of past browsing history of the user to recommend a new list. It uses item factors like overview, genres, cast, crew and tags to find the similarity between the movies and thereby generate an item matrix. Based on the user's previous preferences combined with the similarity of movies, it recommends a list of movies. Movie features like overview, genres etc. are text data and hence we need to convert this into the vector space to calculate the similarity. We use the Term Frequency- Inverse Document Frequency (TF-IDF) to convert the word to its vector form and thereby determine the importance of each feature. TF is the relative frequency of any word in the document and IDF is the inverse of document frequency which is the count of documents containing the words. Once we calculate the TF-IDF, we use the Vector Space Model to compute the proximity between different vectors. There are different parameters to calculate the similarity between two vectors: Cosine similarity, Dot Product and Euclidean Distance. Now, we can rank and sort the movies according to this similarity matrix.
 ### Collaborative Filtering
